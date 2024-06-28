@@ -14,12 +14,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 name = "nomad-openbis"
-description = "Nomad example template"
+description = "Nomad pybis handler"
 version = "0.1.0"
 readme = "README.rst"
 requires-python = ">=3.9"
-authors = [{ name = "Ahmed Ilyas", email = "john.doe@physik.hu-berlin.de" }]
-maintainers = [{ name = "Ahmed Ilyas", email = "john.doe@physik.hu-berlin.de" }]
+authors = [{ name = "The NOMAD Authors" }]
 license = { file = "LICENSE" }
 dependencies = [
     "requests",
@@ -31,7 +30,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/blueraft/nomad-openbis"
+Repository = "https://github.com/FAIRmat-NFDI/nomad-openbis"
 
 [project.optional-dependencies]
 dev = ["ruff", "pytest", "structlog"]
