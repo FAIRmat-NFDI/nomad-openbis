@@ -2,6 +2,8 @@
 
 Nomad's internal-only handler for interacting with PyBIS. Caution: do not use this package directly.
 
+If you want to integrate openbis in nomad, please refer to the nomad [documentation](https://nomad-lab.eu/prod/v1/staging/docs/howto/manage/eln.html#integration-of-third-party-elns) on integration of third party ELNs.
+
 ### Install
 
 You should create a virtual environment.
